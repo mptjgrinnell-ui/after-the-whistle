@@ -1,0 +1,169 @@
+:root {
+  --text: #1a1f2e;
+  --background: #f7f5f2;
+  --primary: #3d6b8f;
+  --secondary: #c9d6e3;
+  --accent: #b8623a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  line-height: 1.6;
+  margin: 0;
+}
+
+#wrapper {
+  max-width: 60em;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 1.5em;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.25em;
+  letter-spacing: 0.05em;
+}
+
+.tagline {
+  margin: 0.25em 0 0 0;
+  font-style: italic;
+  color: var(--secondary);
+}
+
+nav {
+  background-color: var(--text);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav li {
+  flex: 1;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: 0.75em 0.4em;
+  font-size: 0.9em;
+  white-space: nowrap;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: var(--accent);
+}
+
+#hero {
+  height: 320px;
+  background-image: url(images/federer-hero.jpg);
+  background-size: cover;
+  background-position: center 18%;
+  background-repeat: no-repeat;
+}
+
+main {
+  padding: 1.5em 2em 2em 2em;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--primary);
+  border-bottom: 3px solid var(--secondary);
+  padding-bottom: 0.3em;
+}
+
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--text);
+  margin-top: 2em;
+}
+
+.cards {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cards li {
+  border: 1px solid var(--secondary);
+  border-left: 6px solid var(--primary);
+  padding: 1em 1.25em;
+  margin-bottom: 1em;
+  background-color: #fbfcfd;
+}
+
+.cards h4 {
+  margin: 0.2em 0 0.4em 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  color: var(--primary);
+}
+
+.step {
+  float: right;
+  background-color: var(--primary);
+  color: #ffffff;
+  border-radius: 50%;
+  width: 1.9em;
+  height: 1.9em;
+  line-height: 1.9em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cards a {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+footer {
+  background-color: var(--text);
+  color: var(--secondary);
+  text-align: center;
+  padding: 1.5em;
+  font-size: 0.85em;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+.credit {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  nav li {
+    flex: 100%;
+  }
+
+  #hero {
+    height: 180px;
+  }
+
+  main {
+    padding: 1em;
+  }
+}
