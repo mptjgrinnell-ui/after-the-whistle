@@ -154,6 +154,94 @@ footer a {
   font-style: italic;
 }
 
+.table-scroll {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+caption {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 0.5em;
+  color: var(--primary);
+}
+
+th,
+td {
+  border: 1px solid var(--secondary);
+  padding: 0.6em 0.75em;
+  text-align: left;
+  vertical-align: top;
+}
+
+thead th {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f1f5f9;
+}
+
+tbody th {
+  color: var(--primary);
+}
+
+.small-note {
+  font-size: 0.85em;
+  font-style: italic;
+  color: #555555;
+}
+
+figure {
+  margin: 1.5em 0;
+}
+
+video,
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 854px;
+  border: 1px solid var(--secondary);
+}
+
+figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  color: #555555;
+  margin-top: 0.4em;
+}
+
+.plain-list li {
+  margin-bottom: 0.5em;
+}
+
+main a {
+  color: var(--accent);
+}
+
+details {
+  border: 1px solid var(--secondary);
+  border-left: 6px solid var(--accent);
+  padding: 0.6em 1em;
+  margin-bottom: 0.75em;
+  background-color: #fbfcfd;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--primary);
+}
+
 @media (max-width: 600px) {
   nav li {
     flex: 100%;
