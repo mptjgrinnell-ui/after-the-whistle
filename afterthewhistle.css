@@ -3,7 +3,7 @@
   --background: #f7f5f2;
   --primary: #3d6b8f;
   --secondary: #c9d6e3;
-  --accent: #b8623a;
+  --accent: #a0502c;
 }
 
 * {
@@ -41,7 +41,7 @@ h1 {
 .tagline {
   margin: 0.25em 0 0 0;
   font-style: italic;
-  color: var(--secondary);
+  color: #eef3f8;
 }
 
 nav {
