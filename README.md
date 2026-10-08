@@ -46,7 +46,10 @@ https://www.ncaa.org/student-athletes/probability-of-competing-beyond-high-schoo
 
 ## AI use disclosure
 
-I used Claude (Anthropic) as an AI-supported tool to help build this page from the plan I wrote in
-my Topic Approval, Planning Analysis Sheet, and Wireframe assignments. The topic, the six pages, the
-color scheme, and the writing about my own playing career and injuries are mine. The pages were
-checked with the W3C HTML and CSS validators.
+I used Claude (Anthropic) as an AI-supported tool to help build this site from the plan I wrote in
+my Topic Approval, Planning Analysis Sheet, Wireframe, and Project Update assignments. Claude drafted
+the HTML pages and the style sheet, found the Creative Commons and public domain photos and video,
+pulled the NCAA numbers on the Pipeline page, and set up GitHub Pages and Google Analytics. The
+topic, the six pages and what goes on each one, the color scheme, and everything about my own
+playing career and injuries are mine. I checked every page, and all of them pass the W3C HTML and
+CSS validators.
