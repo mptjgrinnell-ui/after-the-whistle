@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Your Story | After the Whistle</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Share your own story about when you stopped competing and what you did after, so other athletes can see they are not the only ones.">
+    <meta name="keywords" content="athlete stories, former athletes, end of sports career, share your story, life after sports">
+    <meta name="author" content="Matthew Johanson">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="afterthewhistle.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>After the Whistle</h1>
+        <p class="tagline">For when your playing days are over but you are not</p>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pipeline.html">The Pipeline</a></li>
+          <li><a href="keep-playing.html">Keep Playing</a></li>
+          <li><a href="stay-in-the-game.html">Stay In The Game</a></li>
+          <li><a href="injuries.html">Injuries</a></li>
+          <li><a href="your-story.html">Your Story</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Your Story</h2>
+        <p>This whole site is built on one idea, which is that getting cut off at some level is what happens to almost
+          everybody who plays. I can say that all day, but it hits way harder coming from a bunch of different people than
+          it does coming from just me. So if you stopped competing at some point, I want to hear how it went.</p>
+        <p>Tell me what level you made it to, when you stopped, and what you ended up doing after. It does not have to be
+          a sad story or a happy one, just a real one. If you check the box at the bottom, I might feature yours on the
+          site down the road. I will never post anything without that permission.</p>
+
+        <h3>Send In Your Story</h3>
+        <form action="#" method="post">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-row">
+            <label for="level">Highest level you played</label>
+            <select id="level" name="level">
+              <option value="youth">Youth</option>
+              <option value="high-school">High school</option>
+              <option value="college">College</option>
+              <option value="pro">Professional</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="year">Year you stopped competing</label>
+            <input type="number" id="year" name="year" min="1950" max="2026">
+          </div>
+          <div class="form-row">
+            <label for="story">Your story</label>
+            <textarea id="story" name="story" rows="7" required></textarea>
+          </div>
+          <div class="form-row checkbox-row">
+            <input type="checkbox" id="permission" name="permission" value="yes">
+            <label for="permission">It is okay to post my story on this site</label>
+          </div>
+          <div class="form-row">
+            <input type="submit" value="Send My Story">
+          </div>
+        </form>
+        <p class="small-note">This is a class project, so the form does not actually send anywhere yet. If you really want
+          to share something, you can <a href="mailto:mpjohan1@asu.edu">email me</a> instead.</p>
+      </main>
+      <footer>
+        <p><a href="mailto:mpjohan1@asu.edu">Contact me</a> &middot;
+          Find a league at <a href="https://www.volosports.com/">Volo Sports</a></p>
+        <p>Copyright &copy; 2026 After the Whistle &middot; Matthew Johanson</p>
+      </footer>
+    </div>
+  </body>
+</html>

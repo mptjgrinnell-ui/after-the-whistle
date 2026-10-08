@@ -11,7 +11,10 @@ Live site: https://mptjgrinnell-ui.github.io/after-the-whistle/
 
 - `index.html` - the home page
 - `keep-playing.html` - ways to keep playing, with the comparison table and the video
+- `pipeline.html` - how many athletes get filtered out at each level, with NCAA numbers
 - `injuries.html` - the injury side of it and my own rehab
+- `stay-in-the-game.html` - coaching, officiating, and volunteering
+- `your-story.html` - the form for sending in your own story
 - `afterthewhistle.css` - the external style sheet
 - `images/` - photos and the video poster
 - `media/` - the pickup game video (mp4 and webm)
@@ -28,6 +31,18 @@ https://commons.wikimedia.org/wiki/File:Amateurfu%C3%9Fball_Torschuss_von_oben.w
 Injuries photo is "Athlete undergoing knee treatment during rehabilitation session in clinic" by
 Shixart1985, from Wikimedia Commons, licensed CC BY 2.0.
 https://commons.wikimedia.org/wiki/File:Athlete_undergoing_knee_treatment_during_rehabilitation_session_in_clinic.jpg
+
+Pipeline photos: "Flagging Down the Fun, MCAS Yuma Youth Flag Football" by Cpl. Travis Gershaneck
+(public domain), "High School Football Game at New Canaan High School, CT" by Redditaddict69 (CC BY-SA
+4.0), and "Sun Devil Stadium - Pac12 Championship" by Clintus McGintus (CC BY-SA 2.0), all from
+Wikimedia Commons.
+
+Stay In The Game photos: "Coaching youth sports" by Sgt. Daniel Schroeder and "First Team honored
+during high school football game" by Staff Sgt. Christopher Calvert, both public domain, from
+Wikimedia Commons.
+
+Pipeline numbers come from the NCAA's Probability of Competing Beyond High School page.
+https://www.ncaa.org/student-athletes/probability-of-competing-beyond-high-school/
 
 ## AI use disclosure
 
